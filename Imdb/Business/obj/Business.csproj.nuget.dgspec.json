@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ersel\\source\\repos\\Imdb\\Business\\Business.csproj": {}
+    "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ersel\\source\\repos\\Imdb\\Business\\Business.csproj": {
+    "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersel\\source\\repos\\Imdb\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\ersel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\Business\\obj\\",
+        "outputPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,17 +21,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -43,21 +44,22 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -78,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ersel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -99,17 +101,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\Entities.csproj"
+              "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\Entities.csproj"
               }
             }
           }
@@ -121,25 +124,26 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -160,18 +164,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\Entities.csproj": {
+    "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ersel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersel\\source\\repos\\Imdb\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ersel\\source\\PublicProjects\\Imdb\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -181,14 +185,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -199,21 +204,22 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -234,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

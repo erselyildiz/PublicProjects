@@ -7,6 +7,7 @@ namespace Entities.Concrete
 {
     public class Movie : BaseModel
     {
+        [Required(ErrorMessage ="gir")]
         public string Name { get; set; }
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Vue.Js.Element.UI</id>
+    <version>2.10.0.1</version>
+    <authors>http://element.eleme.io</authors>
+    <owners>http://element.eleme.io</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ElementUI</licenseUrl>
+    <projectUrl>https://github.com/ElemeFE</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/22293321?s=200&amp;v=4</iconUrl>
+    <description>Element, a Vue 2.0 based component library for developers, designers and product managers
+http://element.eleme.io/</description>
+    <copyright>https://www.ele.me/</copyright>
+    <tags>Vue,UI Freamwork</tags>
+    <contentFiles>
+      <files include="any/netstandard1.0/Content/ElementUI/element-ui.css" buildAction="Content" />
+      <files include="any/netstandard1.0/Content/ElementUI/fonts/element-icons.ttf" buildAction="Content" />
+      <files include="any/netstandard1.0/Content/ElementUI/fonts/element-icons.woff" buildAction="Content" />
+      <files include="any/netstandard1.0/Scripts/ElementUI/element-ui.js" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>
